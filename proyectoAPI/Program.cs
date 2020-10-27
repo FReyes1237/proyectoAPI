@@ -22,5 +22,5 @@ namespace proyectoAPI
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-    }//soy una prueba
+    }//soy una prueba.
 }
