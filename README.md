@@ -1,6 +1,10 @@
 # proyectoAPI
 API del proyecto de asignatura
 
-Comentario extra, para obtener los últimos cambios del proyecto y que no de ningun tipo de conflicto
-en la parte de buscar de visual o Ctrl+Q y busquen recuperar cambios (pull en VS en ingles) siempre que vayan a empezar a trabajar algo
-Buena suerte
+Cuando se vaya a iniciar a trabajar, hacer un pull desde visual para obtener los ultimos cambios del proyecto.
+
+Al terminar si solo se modificó un archivo dar click derecho al archivo > git > confirmar y sincronizar.
+
+Si es a varios archivos en buscar de VS o Ctrl+Q poner subir cambios.
+
+Cada vez que un cambio sea realizado informar de dicho cambio.
