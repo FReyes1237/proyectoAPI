@@ -9,5 +9,8 @@ API del proyecto de asignatura
 
 - Cada vez que un cambio sea realizado informar de dicho cambio.
 
+Lista con comandos utiles:
 - El comando git checkout + los primero 6 digitos del commit, esto para revisar como estaba el proyecto en una versión anterior.
   Cuando se requiera volver al proyecto actual el comando sería git checkout master.
+  
+- git log se usa para revisar se usa para ver todos los commit realizados.
