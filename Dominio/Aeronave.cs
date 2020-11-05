@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio
 {
-    class Aeronave
+    public class Aeronave
     {
         public int aeronaveID { get; set; }
         public String modelo { get; set; }
