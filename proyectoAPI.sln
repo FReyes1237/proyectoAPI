@@ -8,17 +8,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "proyectoAPI", "proyectoAPI\
 		{F0278E0D-30F6-4D91-A7C2-92A94343261F} = {F0278E0D-30F6-4D91-A7C2-92A94343261F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Aplicacion.csproj", "{F0278E0D-30F6-4D91-A7C2-92A94343261F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacion", "Aplicacion\Aplicacion.csproj", "{F0278E0D-30F6-4D91-A7C2-92A94343261F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8F78B540-0323-435D-87A1-10A9A6755C1B} = {8F78B540-0323-435D-87A1-10A9A6755C1B}
 		{C30A42A9-EE75-4784-8408-7B33C984571C} = {C30A42A9-EE75-4784-8408-7B33C984571C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{C30A42A9-EE75-4784-8408-7B33C984571C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{C30A42A9-EE75-4784-8408-7B33C984571C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{8F78B540-0323-435D-87A1-10A9A6755C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistencia", "Persistencia\Persistencia.csproj", "{8F78B540-0323-435D-87A1-10A9A6755C1B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C30A42A9-EE75-4784-8408-7B33C984571C} = {C30A42A9-EE75-4784-8408-7B33C984571C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9FC27072-9E18-4850-9BAE-C6D307383362}"
+	ProjectSection(SolutionItems) = preProject
+		Usuario.cs = Usuario.cs
 	EndProjectSection
 EndProject
 Global
