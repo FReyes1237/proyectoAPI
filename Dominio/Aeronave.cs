@@ -8,6 +8,5 @@ namespace Dominio
     {
         public int aeronaveID { get; set; }
         public String modelo { get; set; }
-        public String hjhk { get; set; } 
     }
 }
