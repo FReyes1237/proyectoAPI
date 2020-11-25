@@ -7,8 +7,10 @@ namespace Dominio
     public class Vuelo
     {
         public int vueloID { get; set; }
+
         public int estadoVueloID { get; set; }
         [ForeignKey("estadoVueloID")]
+
         public int calendarioID { get; set; }
         [ForeignKey("calendarioID")]
     }

@@ -21,11 +21,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistencia", "Persistenci
 		{C30A42A9-EE75-4784-8408-7B33C984571C} = {C30A42A9-EE75-4784-8408-7B33C984571C}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9FC27072-9E18-4850-9BAE-C6D307383362}"
-	ProjectSection(SolutionItems) = preProject
-		Usuario.cs = Usuario.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

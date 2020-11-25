@@ -7,6 +7,7 @@ namespace Dominio
     public class Factura
     {
         public int facturaID { get; set; }
+
         public String reservaID { get; set; }
         [ForeignKey("reservaID")]
 
