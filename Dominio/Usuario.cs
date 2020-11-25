@@ -4,20 +4,16 @@ using System.Text;
 
 namespace Dominio
 {
-    class Usuario
+    public class Usuario
     {
-		public string Username { get; set; }
-
-		public string Nombre { get; set; }
-
-		public string Apellido { get; set; }
-
-		public string Telefono { get; set; }
-
-		public string Email { get; set; }
-
-		public string Pasaporte { get; set; }
-
+		public String Username { get; set; }
+		public String Nombre { get; set; }
+		public String Apellido { get; set; }
+		public String Telefono { get; set; }
+		public String Email { get; set; }
+		public String Pasaporte { get; set; }
 		public int paisID { get; set; }
+		[ForeignKey("paisID")]
+
 	}
 }
