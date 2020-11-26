@@ -9,6 +9,7 @@ namespace Dominio
     {
         public int butacaID { get; set; }
 
+        [ForeignKey("aeronaveID")]
         public int aeronaveID { get; set; }
 
         [ForeignKey("claseViajeID")]
