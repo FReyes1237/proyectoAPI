@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio
 {
@@ -8,13 +9,11 @@ namespace Dominio
     {
         public int facturaID { get; set; }
 
-        public String reservaID { get; set; }
         [ForeignKey("reservaID")]
-
+        public String reservaID { get; set; }
         public DateTime fecha { get; set; }
 
-        public String modoPagoID { get; set; }
         [ForeignKey("modoPagoID")]
-
+        public String modoPagoID { get; set; }
     }
 }

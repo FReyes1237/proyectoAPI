@@ -47,30 +47,30 @@ namespace Persistencia
 
         public DbSet<Aeronave> Aeronave { get; set; }
 
-        public DbSet<Dominio.Aeropuerto> Aeropuerto { get; set; }
+        public DbSet<Aeropuerto> Aeropuerto { get; set; }
 
-        public DbSet<Dominio.Pais> Pais { get; set; }
+        public DbSet<Pais> Pais { get; set; }
 
-        public DbSet<Dominio.Ciudad> Ciudad { get; set; }
+        public DbSet<Ciudad> Ciudad { get; set; }
 
-        public DbSet<Dominio.Usuario> Usuario { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
-        public DbSet<Dominio.ClaseViaje> ClaseViaje { get; set; }
+        public DbSet<ClaseViaje> ClaseViaje { get; set; }
 
-        public DbSet<Dominio.Vuelo> Vuelo { get; set; }
+        public DbSet<Vuelo> Vuelo { get; set; }
 
-        public DbSet<Dominio.estadoVuelo> estadoVuelo { get; set; }
+        public DbSet<estadoVuelo> estadoVuelo { get; set; }
 
-        public DbSet<Dominio.Butaca> Butaca { get; set; }
+        public DbSet<Butaca> Butaca { get; set; }
 
-        public DbSet<Dominio.precioButaca> precioButaca { get; set; }
+        public DbSet<precioButaca> precioButaca { get; set; }
 
-        public DbSet<Dominio.estadoButaca> estadoButaca { get; set; }
+        public DbSet<estadoButaca> estadoButaca { get; set; }
 
-        public DbSet<Dominio.FormaPago> FormaPago { get; set; }
+        public DbSet<FormaPago> FormaPago { get; set; }
 
-        public DbSet<Dominio.Reserva> Reserva { get; set; }
+        public DbSet<Reserva> Reserva { get; set; }
 
-        public DbSet<Dominio.Factura> Factura { get; set; }
+        public DbSet<Factura> Factura { get; set; }
     }
 }

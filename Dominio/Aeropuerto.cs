@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio
 {
@@ -10,8 +9,9 @@ namespace Dominio
 
         public String nombreAeropuerto { get; set; }
 
-        public int ciudadID { get; set; }
         [ForeignKey("ciudadID")]
+        public int ciudadID { get; set; }
+        
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio
 {
@@ -8,11 +9,11 @@ namespace Dominio
     {
         public int reservaID { get; set; }
 
-        public String Username { get; set; }
         [ForeignKey("Username")]
+        public String Username { get; set; }
 
-        public String vueloID { get; set; }
         [ForeignKey("vueloID")]
+        public String vueloID { get; set; }
 
         public int butacaID { get; set; }
 
