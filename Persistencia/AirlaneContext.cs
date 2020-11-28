@@ -13,7 +13,6 @@ namespace Persistencia
         {
 
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Aeronave>().HasKey(ci => new { ci.aeronaveID });
@@ -44,7 +43,6 @@ namespace Persistencia
 
             modelBuilder.Entity<Factura>().HasKey(ci => new { ci.facturaID });
         }
-
 
         public DbSet<Aeronave> Aeronave { get; set; }
 
