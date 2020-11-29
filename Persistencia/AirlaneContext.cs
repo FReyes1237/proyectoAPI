@@ -17,7 +17,9 @@ namespace Persistencia
         {
             modelBuilder.Entity<Aeronave>().HasKey(ci => new { ci.aeronaveID });
 
-            modelBuilder.Entity<Usuario>().HasKey(ci => new { ci.Username });
+            modelBuilder.Entity<Usuario>().HasKey(ci => new { ci.UserID });
+
+            modelBuilder.Entity<Cliente>().HasKey(ci => new { ci.ClienteID });
 
             modelBuilder.Entity<Aeropuerto>().HasKey(ci => new { ci.aeropuertoID });
 
@@ -53,6 +55,8 @@ namespace Persistencia
         public DbSet<Ciudad> Ciudad { get; set; }
 
         public DbSet<Usuario> Usuario { get; set; }
+
+        public DbSet<Cliente> Cliente { get; set; }
 
         public DbSet<ClaseViaje> ClaseViaje { get; set; }
 

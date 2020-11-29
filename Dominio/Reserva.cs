@@ -9,8 +9,8 @@ namespace Dominio
     {
         public int reservaID { get; set; }
 
-        [ForeignKey("Username")]
-        public String Username { get; set; }
+        [ForeignKey("ClienteID")]
+        public int ClienteID { get; set; }
 
         [ForeignKey("vueloID")]
         public String vueloID { get; set; }
