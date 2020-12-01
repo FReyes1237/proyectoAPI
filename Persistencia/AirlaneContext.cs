@@ -44,6 +44,8 @@ namespace Persistencia
             modelBuilder.Entity<Reserva>().HasKey(ci => new { ci.reservaID });
 
             modelBuilder.Entity<Factura>().HasKey(ci => new { ci.facturaID });
+
+            modelBuilder.Entity<Calendario>().HasKey(ci => new { ci.calendarioID });
         }
 
         public DbSet<Aeronave> Aeronave { get; set; }
@@ -75,5 +77,7 @@ namespace Persistencia
         public DbSet<Reserva> Reserva { get; set; }
 
         public DbSet<Factura> Factura { get; set; }
+
+        public DbSet<Calendario> Calendario { get; set; }
     }
 }
