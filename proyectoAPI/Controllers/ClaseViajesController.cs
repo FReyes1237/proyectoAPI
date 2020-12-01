@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
-using Aplicacion.ClaseViaje;
+using Aplicacion.ClaseViajes;
 
 namespace proyectoAPI.Controllers
 {
@@ -22,6 +22,7 @@ namespace proyectoAPI.Controllers
         }
 
         [HttpGet]
+
         public async Task<ActionResult<List<ClaseViaje>>> Get()
         {
             return await _mediator.Send(new Consulta.ListaClaseViaje());

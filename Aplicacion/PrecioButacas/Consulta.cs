@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.PrecioButacas
 {
-    class Consulta
+    public class Consulta
     {
         public class ListaPrecioB : IRequest<List<Dominio.precioButaca>> { }
 
