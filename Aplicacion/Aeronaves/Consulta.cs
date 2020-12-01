@@ -25,7 +25,7 @@ namespace Aplicacion.Aeronaves
             public async Task<List<Aeronave>> Handle(ListaAeronaves request, CancellationToken cancellationToken)
             {
                 var aeronaves = await _context.Aeronave.ToListAsync();
-                return aeronaves;
+                return aeronaves; 
             }
         }
     }
