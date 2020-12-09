@@ -26,7 +26,7 @@ namespace proyectoAPI.Controllers
             return await _mediator.Send(new Consulta.ListaButaca());
         }
 
-        [HttpPost("NuevaButaca")]
+        [HttpPost("{NuevaButaca}")]
         public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
         {
             return await _mediator.Send(data);

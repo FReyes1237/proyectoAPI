@@ -41,7 +41,7 @@ namespace Aplicacion.Reserva
                     throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { reserva = "La reserva no existe" });
                 }
 
-                reserva.butacaID = request.butacaID ?? reserva.butacaID;
+                //reserva.butacaID = request.butacaID ?? reserva.butacaID;
 
 
                 var resultado = await _context.SaveChangesAsync();
