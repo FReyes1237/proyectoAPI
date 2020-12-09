@@ -12,12 +12,6 @@ namespace Dominio
         [ForeignKey("ClienteID")]
         public int ClienteID { get; set; }
 
-        [ForeignKey("vueloID")]
-        public String vueloID { get; set; }
-
         public int butacaID { get; set; }
-
-        public float precio { get; set; }
-
     }
 }
