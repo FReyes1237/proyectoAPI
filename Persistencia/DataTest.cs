@@ -1,4 +1,4 @@
-﻿using Dominio;
+﻿/*using Dominio;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Persistencia
 {
     public class DataTest
     {
-        /*public static async Task insertarData(AirlaneContext context, UserManager<Usuario> usuarioManager)
+        public static async Task insertarData(AirlaneContext context, UserManager<Usuario> usuarioManager)
         {
             if(!usuarioManager.Users.Any())
             {
@@ -23,8 +23,8 @@ namespace Persistencia
                 await usuarioManager.CreateAsync(usuario, "chumete");
 
             } 
-        }*/
+        }
 
 
     }
-}
+}*/
