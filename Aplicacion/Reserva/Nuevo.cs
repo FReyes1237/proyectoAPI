@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.Reserva
 {
-    class Nuevo
+    public class Nuevo
     {
 
         public class Ejecuta : IRequest
         {
             public int reservaID { get; set; }
-            public int ClienteID { get; set; }
+            public string ClienteID { get; set; }
             public int ButacaID { get; set; }
         }
 

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.Reserva
 {
-    class Eliminar
+    public class Eliminar
     {
         public class Ejecuta : IRequest
         {

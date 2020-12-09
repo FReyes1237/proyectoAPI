@@ -10,7 +10,7 @@ namespace Dominio
         public int reservaID { get; set; }
 
         [ForeignKey("ClienteID")]
-        public int ClienteID { get; set; }
+        public string ClienteID { get; set; }
 
         public int butacaID { get; set; }
     }
