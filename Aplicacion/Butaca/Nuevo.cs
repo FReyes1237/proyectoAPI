@@ -13,6 +13,7 @@ namespace Aplicacion.Butaca
     {
         public class Ejecuta : IRequest
         {
+            public int ButacaID { get; set; }
             public int AeronaveID { get; set; }
             public int ClaseViajeID { get; set; }
             public int EstadoButacaID { get; set; }
@@ -30,6 +31,7 @@ namespace Aplicacion.Butaca
             {
                 var butaca = new Dominio.Butaca
                 {
+                    butacaID = request.ButacaID,
                     aeronaveID = request.AeronaveID,
                     claseViajeID = request.ClaseViajeID,
                     estadoButacaID = request.EstadoButacaID
